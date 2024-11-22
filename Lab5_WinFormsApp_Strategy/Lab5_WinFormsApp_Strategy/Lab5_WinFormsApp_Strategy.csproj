@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Lab5_ClassLibrary_Strategy">
+      <HintPath>..\..\Lab5_ClassLibrary_Strategy\Lab5_ClassLibrary_Strategy\bin\Debug\net8.0\Lab5_ClassLibrary_Strategy.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
