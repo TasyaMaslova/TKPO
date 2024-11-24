@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Lab6_ClassLibrary_Controller_View">
+      <HintPath>..\..\Lab6_ClassLibrary_Controller_View\Lab6_ClassLibrary_Controller_View\bin\Debug\net8.0\Lab6_ClassLibrary_Controller_View.dll</HintPath>
+    </Reference>
+    <Reference Include="Lab6_ClassLibrary_ModelPhone">
+      <HintPath>..\..\Lab6_ClassLibrary_ModelPhone\Lab6_ClassLibrary_ModelPhone\bin\Debug\net8.0\Lab6_ClassLibrary_ModelPhone.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
